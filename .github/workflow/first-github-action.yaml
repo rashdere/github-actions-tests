@@ -1,0 +1,15 @@
+# .github/workflows/main.yml
+
+name: Github Action Demo
+
+on: [push]  
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: First Github Workflow
+        uses: echo "my first github workflow"
+
+      
